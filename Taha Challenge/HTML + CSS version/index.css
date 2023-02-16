@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#line::after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.container {
+    width: 40%;
+    margin: 150px auto 50px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.container h4 {
+    font-weight: bold;
+    color: grey;
+}
+
+.container h2 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cards .card {
+    width: 290px;
+    height: fit-content;
+    background-color: rgb(176, 176, 176);
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.cards .card img {
+    height: 150px;
+    width: 290px;
+    margin-bottom: 30px;
+}
+
+.cards .card h3 {
+    font-size: 25px;
+
+}
+
+.cards .card p {
+    width: 220px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info h3 {
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info .contact-us,
+.info .about {
+    padding: 20px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.info .contact-us {
+    background-color: #DDD;
+}
+
+.info .about {
+    background-color: #9d9d9d;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
